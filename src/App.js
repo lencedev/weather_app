@@ -25,6 +25,7 @@ function App() {
 
   return (
     <div className="App">
+      <div className="container">
       <div className="search">
         <input
           value={location}
@@ -33,7 +34,7 @@ function App() {
           placeholder="Enter Location"
           type="text" className="" />
       </div>
-      <div className="container">
+
         <div className="top">
           <div className="location">
             <p>{data.name}</p>
