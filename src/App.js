@@ -22,7 +22,6 @@ function App() {
       setLocation('');
     }
   }
-  
 
   return (
     <div className="App">
